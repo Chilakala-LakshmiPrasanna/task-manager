@@ -1,0 +1,30 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .task-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .task-item.completed .task-details {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-details h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .task-details p {
+    margin: 5px 0 0;
+   
+  }  
